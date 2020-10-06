@@ -30,7 +30,8 @@ class Solution{
                     temp -> next = temp -> next -> next;
                     delete delete_me;
                 }
-                temp = temp -> next;
+		else
+                    temp = temp -> next;
             }
             return head;
         }
